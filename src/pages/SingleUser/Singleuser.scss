@@ -1,0 +1,136 @@
+@import "../../common/common.scss";
+.singleContainer {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  .top {
+    display: flex;
+    gap: 24px;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      row-gap: 24px;
+      flex: 1;
+      padding: 15px;
+   -webkit-box-shadow: $-webkit-box-shadow;
+  box-shadow: $box-shadow;
+      position: relative;
+      .title {
+        color: #999;
+      }
+      .editButton {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgb(223, 213, 213);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        cursor: pointer;
+        padding: 2px;
+      }
+      .userinfo {
+        display: flex;
+        gap: 24px;
+        margin-bottom: 25px;
+        .image-container {
+          background-color: rgba(252, 172, 172, 0.514);
+          position: relative;
+          width: 100px;
+          height: 100px;
+          &:hover .photo {
+            display: block;
+            transition: all;
+          }
+          .photo {
+            position: absolute;
+            left: 35px;
+            top: 60px;
+            color: #fff;
+            font-size: 35px;
+            display: none;
+            cursor: pointer;
+          }
+        }
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        .deatilInfo {
+          display: flex;
+          flex-direction: column;
+          row-gap: 12px;
+          flex: 3;
+          .item {
+            display: flex;
+            gap: 12px;
+            .key {
+              font-size: 20px;
+              font-weight: 500;
+              text-align: left;
+            }
+            .value {
+              text-align: rigth;
+              display: block;
+              text-transform: capitalize;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .right {
+      -webkit-box-shadow: 5px 5px 15px 5px #999;
+      box-shadow: 5px 5px 15px 5px #999;
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      padding: 10px;
+      h2 {
+        color: #999;
+        margin-top: 15px;
+      }
+    }
+  }
+  .bottom {
+    padding: 10px;
+    h2 {
+      padding: 10px;
+      color: #999;
+    }
+    .MuiTableHead-root {
+      background-color: rgb(206, 193, 193);
+    }
+    .MuiTableCell-root {
+      text-transform: capitalize;
+      text-align: left;
+      .approved {
+        color: green;
+        background-color: rgba(133, 252, 133, 0.466);
+        font-weight: 400;
+        padding: 5px;
+        border-radius: 8px;
+        width: 80px;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .pending {
+        color: red;
+        font-weight: 400;
+        background-color: rgba(248, 122, 122, 0.527);
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 8px;
+        width: 80px;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
