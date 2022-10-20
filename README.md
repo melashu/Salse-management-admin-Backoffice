@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# MDS admin back office
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MDS admin back office is a sales management admin dashboard app that enables the administrator, to add and remove users, can track deliveries and orders, can add and remove products, view details of each product and each user, check the company's revenue and handle notifications and messages. 
+## Built With
+- React 
+- Redux
+- Sass
+- Material UI
+- Chart Library
+- JSX
 
-## Available Scripts
+## Live Demo
+[Live Demo](https://mdsadmin.netlify.app/)
 
-In the project directory, you can run:
+## Screenshot 
+### Light theme 
+![33619302-8534b49f4a39b7b23620754da45053f1](https://user-images.githubusercontent.com/30173722/197042842-b570a140-22e0-4663-ad1c-d2846c0c3e95.png)
 
-### `npm start`
+### Dark theme 
+![33619293-4ecf5e10cb19617ca5ef5ddc90c132a2](https://user-images.githubusercontent.com/30173722/197042886-445d6073-bdb8-45df-b0eb-9be723994699.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- You should be having [Node.js](https://nodejs.org/en/) installed on your computer
+### Setup
 
-### `npm test`
+To get a local copy up and running follow these simple example steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Navigate to a folder where you want the cloned file to appear
+   
+2. Clone this repo in your terminal or git bash using the command
 
-### `npm run build`
+  `git clone https://github.com/melashu/livecrypto.git`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. `cd livecrypto`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. run `npm install ` to install all the necessary dependencies including the linters
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. `npm start`
+## Authors 
 
-### `npm run eject`
+👤 **Melashu Amare**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Github](https://github.com/melashu)
+- [Twitter](https://twitter.com/meshu102)
+- [LinkedIn](https://www.linkedin.com/in/melashu-amare/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions, issues, and feature requests are welcome!
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to check the [issues page](https://github.com/melashu/Salse-management-admin-Backoffice/issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Show your support
 
-### Code Splitting
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
 
-### Analyzing the Bundle Size
+- [Lama Dev](https://www.youtube.com/c/LamaDev)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

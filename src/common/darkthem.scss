@@ -1,0 +1,83 @@
+.App {
+  &.dark {
+    background-color: #111;
+    color: #999;
+    a {
+      text-decoration: none;
+      color: #999;
+    }
+    .sidebar {
+      li {
+        color: #999;
+        a {
+          width: 100%;
+          &:hover {
+            background-color: #999;
+            color: #222;
+          }
+        }
+        
+      }
+      .colorOption {
+        border: #999 solid 2px;
+        cursor: pointer;
+        &:nth-child(1) {
+          background-color: #fff;
+        }
+      }
+    }
+    .search {
+      color: rgb(177, 172, 172);
+      input {
+        color: #fff;
+        font-size: 15px;
+      }
+    }
+    .items {
+      .item {
+        color: rgb(177, 172, 172);
+      }
+    }
+    .widgetContainer {
+      span {
+        color: #999;
+      }
+    }
+    .producttable {
+      background-color: #111;
+      .MuiTableHead-root {
+        background-color: rgb(148, 141, 141);
+        color: #fff;
+      }
+      .MuiTableCell-root {
+        color: rgb(211, 197, 197);
+        font-size: 14px;
+        .approved,
+        .pending {
+          color: #fff;
+        }
+      }
+    }
+    .data-table-container {
+      .MuiToolbar-root {
+        color: #999;
+        button {
+          color: #999;
+        }
+      }
+      .MuiCheckbox-root {
+        color: #999;
+      }
+      color: #999;
+    }
+    .singleContainer {
+      color: #999;
+    }
+    .new {
+      color: #999;
+      input {
+        background-color: rgb(230, 220, 220);
+      }
+    }
+  }
+}

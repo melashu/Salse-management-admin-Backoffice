@@ -1,0 +1,98 @@
+.new {
+  padding: 15px;
+
+  .newContainer {
+    padding: 16px;
+    .top {
+      -webkit-box-shadow: 5px 5px 15px 5px #999;
+      box-shadow: 5px 5px 15px 5px #999;
+      padding: 15px;
+      .title {
+        color: #999;
+      }
+    }
+    .bottom {
+      padding: 10px;
+      -webkit-box-shadow: 5px 5px 15px 5px #999;
+      box-shadow: 5px 5px 15px 5px #999;
+      margin: 5px;
+      margin-top: 15px;
+      display: flex;
+      gap: 24px;
+      .left {
+        flex: 1;
+        display: flex;
+        img {
+          width: 150px;
+          height: 150px;
+          margin-left: 50%;
+          margin-top: 30%;
+          border-radius: 50%;
+        }
+      }
+      .right {
+        flex: 2;
+        padding: 15px;
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 32px;
+          justify-content: space-around;
+          align-items: center;
+          .formInput {
+            width: 40%;
+            label {
+              font-size: 18px;
+              font-weight: 500;
+              display: block;
+            }
+            input {
+              width: 100%;
+              padding: 15px;
+              border: none;
+              border-bottom: 2px #999 solid;
+              outline: none;
+              font-size: 15px;
+            }
+
+            &.sex {
+              display: flex;
+              gap: 24px;
+            }
+            &.file {
+              display: flex;
+              align-items: center;
+              border-bottom: 2px #999 solid;
+              input {
+                border: none;
+              }
+            }
+            .sexInput {
+              display: flex;
+              gap: 20px;
+              width: 100%;
+              input {
+                width: 24px;
+                height: 24px;
+              }
+            }
+          }
+          button {
+            width: 180px;
+            border: none;
+            color: #fff;
+            background-color: teal;
+            padding: 10px;
+            min-height: 40px;
+            font-size: 20px;
+            cursor: pointer;
+            &:hover{
+              cursor: pointer;
+              background-color: rgba(135, 197, 248, 0.61);
+            }
+          }
+        }
+      }
+    }
+  }
+}
