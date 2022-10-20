@@ -1,0 +1,132 @@
+@import "../../common/common.scss";
+.widgets,
+.featureContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.featureContainer {
+  padding: 10px;
+  gap: 24px;
+  margin: 12px;
+  .feature {
+    flex: 3;
+    -webkit-box-shadow: $-webkit-box-shadow;
+    box-shadow: $box-shadow;
+    padding: 25px;
+    .top {
+      display: flex;
+      justify-content: space-between;
+      color: #999;
+      padding: 10px;
+    }
+    .bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+      gap: 24px;
+      .progress {
+        width: 200px;
+        height: 200px;
+      }
+      .title {
+        font-size: 24px;
+        color: #999;
+        font-weight: bold;
+      }
+      .amount {
+        font-weight: bold;
+        font-size: 24px;
+        color: #000;
+      }
+      .desc {
+        font-weight: 400;
+        font-size: 18px;
+        color: #999;
+      }
+      .summery {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        .item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 24px;
+          &.negative {
+            color: red;
+          }
+          .result {
+            display: flex;
+            align-items: center;
+            align-items: center;
+          }
+          &.positive {
+            color: green;
+          }
+        }
+      }
+    }
+  }
+
+  .chart {
+    flex: 5;
+    padding-left: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #999;
+    box-shadow: 5px 5px 15px 5px #999;
+    padding: 25px;
+    .title {
+      color: #999;
+      margin-bottom: 25px;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.table-container {
+  padding: 10px;
+  -webkit-box-shadow: 5px 5px 15px 5px #999;
+  box-shadow: 5px 5px 15px 5px #999;
+  padding: 25px;
+  margin: 20px;
+  .table-title {
+    padding: 10px;
+    color: #999;
+  }
+  .MuiTableHead-root {
+    background-color: rgb(206, 193, 193);
+  }
+  .MuiTableCell-root {
+    text-transform: capitalize;
+    text-align: left;
+    .approved {
+      color: green;
+      background-color: rgba(133, 252, 133, 0.466);
+      font-weight: 400;
+      padding: 5px;
+      border-radius: 8px;
+      width: 80px;
+      display: block;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .pending {
+      color: red;
+      font-weight: 400;
+      background-color: rgba(248, 122, 122, 0.527);
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 8px;
+      width: 80px;
+      display: block;
+      text-align: center;
+    }
+  }
+}
