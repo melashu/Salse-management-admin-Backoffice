@@ -13,7 +13,11 @@ MDS admin back office is a sales management admin dashboard app that enables the
 [Live Demo](https://clinquant-kringle-c60d03.netlify.app/)
 
 ## Screenshot 
-![image](https://user-images.githubusercontent.com/30173722/195955778-bab825c5-0d41-4f50-8628-e9281e508f11.png)
+### Light theme 
+![33619302-8534b49f4a39b7b23620754da45053f1](https://user-images.githubusercontent.com/30173722/197042842-b570a140-22e0-4663-ad1c-d2846c0c3e95.png)
+
+### Dark theme 
+![33619293-4ecf5e10cb19617ca5ef5ddc90c132a2](https://user-images.githubusercontent.com/30173722/197042886-445d6073-bdb8-45df-b0eb-9be723994699.png)
 
 ## Getting Started
 ### Prerequisites
