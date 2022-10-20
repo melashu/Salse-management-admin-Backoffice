@@ -1,0 +1,63 @@
+
+@import "../../common/common.scss";
+.add-new-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 10px;
+   -webkit-box-shadow: $-webkit-box-shadow;
+  box-shadow: $box-shadow;
+  .title {
+    font-size: 28px;
+    font-weight: 600;
+    color: teal;
+  }
+  .new-user {
+    padding: 10px;
+    border: 1px teal solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: teal;
+    &:hover {
+      color: #fff;
+      background-color: teal;
+    }
+  }
+}
+
+.avator-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.avator {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.action {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+
+  .actionView {
+    color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.452);
+    padding: 5px 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .actionDelete {
+    color: chocolate;
+    background-color: rgba(210, 105, 30, 0.493);
+    padding: 5px 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
